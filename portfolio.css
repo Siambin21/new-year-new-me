@@ -49,94 +49,54 @@ background-image: url("banner/banner1.png");
 height: 800px;
 width: 100;
 }
-
-
-
-
-
-
-   
-
-.dp{
-    height: 600px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), no-repeat;}
-    .name{color: var(--dark-01, #181818);
-        font-family: Open Sans;
-        font-size: 85px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    margin-top: 5px;
-margin-bottom: 5px;
-margin-right: 178px;}
-    .bannar-greeting{
-        color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 5px;
-    }
-    .bannarp{
-        display: flex;
-width: 585px;
-flex-direction: column;
-flex-shrink: 0;
-color: var(--dark-03, #757575);
-font-family: Open Sans;
-font-size: 18px;
+.dp-container{
+ margin-left: 80px;
+}
+.main-description{
+    color: var(--dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;
- margin-top: 5px;
-   }
-/*main*/
-.about{
-    margin-top: 300px;
-    padding-left: 20px ;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 20px;
-
-    max-width: 1140px;
-text-align: right;
-border: 2px solid #030201;
-border-radius: 10px;
-background: #FFF8F3;
-align-items: center;
-margin: auto;
+line-height: 26px;
 }
-.about-title{
-    color: var(--dark-01, #181818);
-text-align: center;
-font-family: Open Sans;
-font-size: 35px;
+main{display: flex;
+justify-content: space-between;
+}
+.text-container{
+    margin-right: 100px;
+}
+.main-list{
+    color: var(--dark-02, #444343);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.section-head-1st{
+    color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-right: 100px;
+text-align: center;
+}
+   
 
-}
-.section-description{
-    color: var(--dark-03, #757575);
-text-align: center;
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
-align-items: center;
-}
+
+ 
+
 main{ height: 500px;
 align-items: center;
 margin-top: 100px;}
-.info-container{
+.logo-container{
     display: flex;
+margin-right: 80px;
+margin-left: 80px;
     justify-content: space-between;
-    padding-bottom: 40px;
-    margin-right: 80px;
-    margin-left: 80px;
 }
 #what-i-do{
     padding: 30px 150px;
